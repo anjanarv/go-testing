@@ -1,0 +1,5 @@
+# ignore ALL coverage .out files
+*.out
+
+# ignore ALL files in ANY directory named .idea
+.idea/
