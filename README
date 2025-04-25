@@ -1,12 +1,13 @@
-This example program is to cover everything on Go testing from a simple unit testing function to using more strategies
-that can be used in Go testing. The repo includes different modes of Go testing - benchmark testing to check the performance of the code,
-fuzz testing to identify the edge cases etc
+# Go Testing Strategies
 
-- Test files names are of the format *_test.go
-- To run the tests from command line use
-  `go test`
-  
-If using Goland use the green arrows in the gutter to run individual tests or the green double triangle icon at the top in the gutter
+This repo is to cover everything on Go testing from a simple unit testing function to using more complex strategies that can be used in Go testing. 
+The repo includes different modes of Go testing - benchmark testing to check the performance of the code,
+fuzz testing to identify the edge cases, table driver tests to keep the tests DRY etc
 
 
+## Usage
+The below command performs the formatting, linting and runs the tests
 
+```
+make check
+```
