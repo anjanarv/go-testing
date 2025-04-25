@@ -4,8 +4,14 @@ This repo is to cover everything on Go testing from a simple unit testing functi
 The repo includes different modes of Go testing - benchmark testing to check the performance of the code, fuzz testing to identify the edge cases, table driver tests to keep the tests DRY etc
 
 ## Usage
-The below command performs the formatting, linting and runs the tests
+Below command performs the formatting, linting and runs the tests
 
 ```
 make check
+```
+
+Below command runs the coverage and creates a report
+
+```
+make coverage
 ```
