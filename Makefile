@@ -33,6 +33,7 @@ deps:
 	go mod download
 
 # Coverage
+coverage:
 	go clean -testcache
 	go test -coverprofile=coverage.out ./...
 	go tool cover -html=coverage.out
