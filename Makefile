@@ -32,6 +32,11 @@ deps:
 	go mod tidy
 	go mod download
 
+# Coverage
+	go clean -testcache
+	go test -coverprofile=coverage.out ./...
+	go tool cover -html=coverage.out
+
 # Lint the code
 lint:
 	golangci-lint run
